@@ -38,7 +38,7 @@ void nhap(NV *nhanVien, int n) {
 		}
 void them(NV *nhanVien ,  int *n){
 	*n = *n + 1;
-nhanVien = (NV*)realloc(nhanVien , (*n) * sizeof(nhanVien));
+ nhanVien = (NV*)realloc(nhanVien , (*n) * sizeof(nhanVien));
 
 
  	printf ("nhap ten cua nhan vien thu %d", *n);
